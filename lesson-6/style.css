@@ -2,48 +2,71 @@
     box-sizing: border-box
 }
 
-.box {
-    width: 1200px;
-    height: 675px;
-    display: inline-block;
+.rectangle{
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
 }
 
-.rectangle {
-    width: 1010px;
-    height: 503px;
-    border: 1px solid #d7d7d7;
-    background-color: #14f144;
-    margin: 86px 95px;
+.box {
+    width: 376px;
+    height: 375px;
+    display: inline-block;
+    margin-right: 99px;
 }
 
 .rectangle-image {
+    display: inline-block;
+}
+
+img {
     width: 376px;
     height: 375px;
-    margin:64px 100px 64px 48px;
-    background: url("https://ogo1.ru/upload/iblock/9ba/9ba1c4c626be57de20fb495906c3095b.jpeg") center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .rectangle-info {
-    background-color: #14f1f1;
-    margin: 94px 93px 81px 99px;
+    background-color: #ffffff;
+    display: inline-block;
 }
 
-.title {
-    width: 178px;
-    height: 22px;
+h1 {
     color: #2f2f2f;
-    font-family: "Arial - Bold MT";
     font-size: 23px;
-    font-weight: 400;
 }
 
 .description {
-    width: 393px;
-    height: 50px;
     color: #2f2f2f;
-    font-family: "Arial MT";
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+.rectangle-price {
+    display: inline-block;
+    margin-top: 55px;
+    margin-bottom: 23px;
+    width: 35px;
+    height: 14px;
+    color: #2f2f2f;
     font-size: 15px;
     font-weight: 400;
+}
+
+.rectangle-price-figure {
+    display: inline-block;
+    width: 103px;
+    height: 28px;
+    color: #2f2f2f;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 56px;
+}
+
+button {
+    width: 252px;
+    height: 50px;
+    background-color: #ec744a;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 19px;
 }
