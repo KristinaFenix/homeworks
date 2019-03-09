@@ -5,6 +5,8 @@
 body {
     font-family: sans-serif;
     background-color:#F5FFFA;
+    background-color: #fff;
+    background-image: url(https://avatanplus.com/files/resources/original/577fb9b87bf94155caed78bc.jpg);
 }
 
 .container {
@@ -12,12 +14,36 @@ body {
     width: 96%;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(137, 241, 236, 0.26);
+    color: #fff;
+    text-align: center;
 }
 
 .lesson {
-    width: 100px;
-    height: 100px;
+    display: inline-block;
+    width: 250px;
+    height: 235px;
     box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
     border-radius: 6px;
-    margin: 20px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;    
+    background-color: rgba(215, 135, 226, 0.527);
+    color: rgb(0, 30, 112);
+    margin: 15px;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(228, 220, 220);
+    color: rgb(124, 25, 111);
+    border-width: 2px 0;
+    border-style: solid none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    border: 2px solid rgb(67, 208, 226);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
 }
