@@ -1,0 +1,42 @@
+* {
+    color: #333333;
+}
+
+h1 {
+    font-family: Tahoma;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 81px;
+}
+
+img {
+    display:block;
+    margin:auto;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    background-color: rgb(160, 160, 243);
+}
+
+.row{
+    background-color: red;
+}
+
+.image {
+    background-color: rgb(49, 219, 49);
+    align-items: center;
+}
+
+.name {
+    background-color: rgb(59, 230, 230);
+    align-items: center;
+}
